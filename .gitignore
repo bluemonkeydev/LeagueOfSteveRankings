@@ -1,0 +1,8 @@
+bin/*
+dist/*
+.settings/*
+sample/curlScript_mine.sh
+sample/rankings_x.xml
+sample/rankings.xml
+sample/los.html
+
