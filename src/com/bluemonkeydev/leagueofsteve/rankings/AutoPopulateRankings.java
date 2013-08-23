@@ -14,7 +14,7 @@ import org.htmlparser.Parser;
 import org.htmlparser.filters.HasAttributeFilter;
 import org.htmlparser.filters.OrFilter;
 import org.htmlparser.filters.TagNameFilter;
-import org.htmlparser.tags.LinkTag;
+//import org.htmlparser.tags.LinkTag;
 import org.htmlparser.tags.TableColumn;
 import org.htmlparser.util.NodeIterator;
 import org.htmlparser.util.NodeList;
@@ -123,6 +123,8 @@ public class AutoPopulateRankings {
             }
             System.out.println(person.rank + ":" + person.name + ":" + person.score + ":" + person.correct + ":" + person.bestScore + ":" + person.bestCorrect + ":" + person.winner);
         }
+
+        in.close();
 
     	// Write to XML
         BufferedWriter out = new BufferedWriter(new FileWriter(args[1]));
